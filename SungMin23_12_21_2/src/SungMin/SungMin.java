@@ -1,8 +1,8 @@
-package sungMin;
+package SungMin;
 
 import java.util.Scanner;
 
-public class SungMin1000{
+public class SungMin{
     public static void main(String[] args){
         int a,b;
         String sungMin;
@@ -13,6 +13,8 @@ public class SungMin1000{
         a =  Integer.parseInt(sungMin.substring(0,1)); 
         b =  Integer.parseInt(sungMin.substring(1)); 
         
-        System.out.print(a+b);
+        System.out.print(a*b);
+        
     }
 }
+
