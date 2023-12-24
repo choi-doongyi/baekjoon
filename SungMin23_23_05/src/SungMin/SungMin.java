@@ -8,7 +8,6 @@ public class SungMin {
 		
 		int a = Integer.parseInt(sc.next());
 		int b = Integer.parseInt(sc.next());
-		
 		if(b<45) {
 			if(a!=0) {
 				System.out.println((a-1)+" "+(b-45+60));
