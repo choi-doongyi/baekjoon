@@ -28,6 +28,7 @@ public class SungMin {
 			else if(b> a && b>c) {
 				System.out.println(b*100);
 			}
+			
 			else if(c >a && c>b) {
 				System.out.println(c*100);
 			}
