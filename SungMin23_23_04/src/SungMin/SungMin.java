@@ -8,7 +8,6 @@ public class SungMin {
 		
 		int a = Integer.parseInt(sc.next());
 		int b = Integer.parseInt(sc.next());
-		
 		if(a>0 && b>0) {
 			System.out.println("1");
 		}
