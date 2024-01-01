@@ -13,7 +13,6 @@ public class SungMin {
 		while(true) {
 			if(a<=count) {System.out.println(i); break;}
 			i+=1;
-			
 			if(String.valueOf(i).indexOf("666")!=-1) {
 				for(int x=0; x<String.valueOf(i).length(); x++) {
 					sungmin[x] = String.valueOf(String.valueOf(i).charAt(x)); 
