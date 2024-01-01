@@ -34,8 +34,7 @@ public class SungMin {
 				for(int x=0; x<8; x++) {
 					for(int y=0; y<8; y++) {
 						if(i+7<one.length && j+7<one[0].length) {
-							if(!one[i+x][j+y].equals(two[x][y])) {
-								
+							if(!one[i+x][j+y].equals(two[x][y])) {	
 								count+=1;
 							}
 							else {count2+=1;}
