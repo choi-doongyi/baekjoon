@@ -16,6 +16,7 @@ public class SungMin {
 		Deque<Integer> deque = new ArrayDeque<>();
 		//10866 덱
 		
+		
 		int a =Integer.parseInt(bf.readLine());
 		for(int i=0; i<a; i++) {
 			StringTokenizer st = new StringTokenizer(bf.readLine());
