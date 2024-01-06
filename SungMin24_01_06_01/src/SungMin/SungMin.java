@@ -19,7 +19,6 @@ public class SungMin {
 		//11050 이항 계수 1
 		int N = Integer.parseInt(st.nextToken());
 		int K = Integer.parseInt(st.nextToken());
- 
 		System.out.println(factorial(N) / (factorial(N - K) * factorial(K)));
 	}
  
