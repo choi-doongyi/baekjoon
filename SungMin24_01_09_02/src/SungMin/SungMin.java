@@ -22,7 +22,6 @@ public class SungMin {
 		int a =Integer.parseInt(bf.readLine());
 		
 		int[][] one = new int[a][2];
-
 		//7568 덩치
 		for(int i=0; i<a; i++) {
 			StringTokenizer st = new StringTokenizer(bf.readLine());
