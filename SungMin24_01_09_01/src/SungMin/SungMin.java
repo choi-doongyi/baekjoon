@@ -22,7 +22,6 @@ public class SungMin {
 		
 		PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
 		Queue<Integer> queue2 = new LinkedList<>();
-		
 		//1966 프린터 큐
 		
 		int a= Integer.parseInt(bf.readLine());
