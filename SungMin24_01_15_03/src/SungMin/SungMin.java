@@ -46,6 +46,7 @@ public class SungMin {
                     	for(int i=one.size()-1; i>=0; i--) {
                     		if(stack.peek()<one.get(i)) {
                     			stack2.push(one.get(i));
+                    			System.out.println("시발");
                     			break;
                     		}
                     	}
