@@ -16,6 +16,7 @@ public class SungMin {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		//16194 카드 구매하기2
+		
 		int dp[] = new int[1001];
 		int a = Integer.parseInt(bf.readLine());
 		int one[] = new int[a];
