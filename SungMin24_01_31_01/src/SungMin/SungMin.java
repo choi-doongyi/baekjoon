@@ -12,20 +12,20 @@ public class SungMin {
 		
 		int N = in.nextInt();
 		
-		seq = new int[N];
-		dp = new Integer[N];
+		seq = new int[N+1];
+		dp = new Integer[N+1];
 		
 		
-		for(int i = 0; i < N; i++) {
+		for(int i = 1; i <= N; i++) {
 			seq[i] = in.nextInt();
 		}
 		
 		// 0 ~ N-1 까지 모든 부분수열 탐색 
-		for(int i = 0; i < N; i++) {
+		for(int i = 1; i <= N; i++) {
 			LIS(i);
 		}
 		
-		int max = dp[0];
+		int max = dp[1];
 		// 최댓값 찾기 
 		for(int i = 1; i < N; i++) {
 			max = Math.max(max, dp[i]);
