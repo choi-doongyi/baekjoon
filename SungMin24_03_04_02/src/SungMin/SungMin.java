@@ -16,7 +16,7 @@ import java.util.Queue;
 import java.util.StringTokenizer;
  
 public class SungMin {
-	//15652 N과 M(4)
+	//15654 N과 M(5)
 	static int[] nums;
     static int[] arr;
     static boolean[] isVisited;
