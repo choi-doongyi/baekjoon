@@ -18,6 +18,7 @@ import java.util.StringTokenizer;
  
 public class SungMin {
 	//12851 숨바꼭질 2
+	
 	static int n,k,count=1;
 	static Integer[] one = new Integer[100000+1];
     static Queue<Integer> q = new LinkedList<>();
