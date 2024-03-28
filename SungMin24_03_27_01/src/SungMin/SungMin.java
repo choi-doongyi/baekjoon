@@ -31,10 +31,6 @@ public class SungMin {
 	static final int INF = 987654321;
     static ArrayList<ArrayList<Town>> arrList, reverse_arrList;
     static int N, X;
-    
-    
-    
-    
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
