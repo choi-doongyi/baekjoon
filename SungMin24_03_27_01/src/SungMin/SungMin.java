@@ -21,7 +21,7 @@ class Town implements Comparable<Town> {
         this.weight = weight;
     }
  
-    @Override
+
     public int compareTo(Town arg0) {
         return weight - arg0.weight;
     }
